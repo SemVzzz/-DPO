@@ -55,7 +55,7 @@ def process_images_in_folder(folder_path, model):
 
 if __name__ == '__main__':
     # Загрузите обученную модель
-    model = YOLO("runs/detect/train/weights/best.pt")  # Путь к файлу с весами модели
+    model = YOLO("runs/detect/train/weights/best.pt")  # Путь к файлу с весами модели / Также можно train заменить на train2 Для того чтобы проверить ещё одну обученную модель
 
     # Путь к папке с изображениями для тестирования
     folder_path = "testik"
