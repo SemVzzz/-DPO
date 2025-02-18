@@ -58,7 +58,7 @@ if __name__ == '__main__':
     model = YOLO("runs/detect/train/weights/best.pt")  # Путь к файлу с весами модели
 
     # Путь к папке с изображениями для тестирования
-    folder_path = "D:/LabelProject/LabelPRoj/testik"
+    folder_path = "testik"
 
     # Обрабатываем все изображения в папке
     process_images_in_folder(folder_path, model)
