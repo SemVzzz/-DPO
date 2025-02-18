@@ -1,8 +1,0 @@
-alu
-carton
-glass
-mask
-paper_cup
-pla_cup
-pla_flasche
-tin_cans
