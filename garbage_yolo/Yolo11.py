@@ -8,4 +8,4 @@ if __name__ == '__main__':
     results = model.train(data="config.yaml", epochs=150, imgsz=640)
 
     # Run inference with the YOLO11n model on the 'bus.jpg' image
-    results = model("D:/LabelProject/LabelPRoj/garbage_dataset_yolo")
+    results = model("garbage_dataset_yolo")
