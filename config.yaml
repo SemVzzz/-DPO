@@ -1,0 +1,29 @@
+
+path: D:/LabelProject/LabelProj/garbage_dataset_yolo
+train: images/train # train images 
+val: images/val # val images
+
+# Classes
+names:
+  0: alu
+  1: carton
+  2: glass
+  3: mask
+  4: paper_cup
+  5: pla_cup
+  6: pla_flasche
+  7: tin_cans
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
